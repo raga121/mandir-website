@@ -10,45 +10,70 @@
       font-family: 'Hind', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8f8f8;
+      background: #fff7f0;
       color: #333;
     }
-    header, footer {
-      background: #b30000;
+    header {
+      background: url('images/hero-banner.jpg') no-repeat center center/cover;
       color: white;
-      padding: 1rem;
       text-align: center;
+      padding: 5rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+    header p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
     nav {
-      background: #ffe6e6;
+      background: #fff3e0;
       padding: 1rem;
       text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     nav a {
       margin: 0 1rem;
-      color: #b30000;
+      color: #bf360c;
+      font-weight: bold;
       text-decoration: none;
     }
     section {
-      padding: 2rem;
-      max-width: 800px;
+      padding: 3rem 1rem;
+      max-width: 960px;
       margin: auto;
       background: white;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
     h2 {
-      color: #b30000;
+      color: #bf360c;
+      margin-top: 0;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
     }
     .gallery img {
       width: 100%;
       max-width: 300px;
-      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     audio {
       width: 100%;
       margin-top: 1rem;
+    }
+    footer {
+      background: #bf360c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
     }
   </style>
 </head>
